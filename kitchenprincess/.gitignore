@@ -1,0 +1,5 @@
+# Ignore the resources folder (dynamic files generated during build)
+resources/
+
+# Ignore the public folder (generated static site output)
+public/
