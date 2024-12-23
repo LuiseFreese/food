@@ -17,19 +17,26 @@
 <section class="contact section">
   <div class="container">
     <div class="row">
+      {{ if .Site.Params.mobile }}
       <div class="col-lg-4 mb-4 mb-lg-0 col-md-4">
         <h4>Mobile</h4>
         <p>{{ .Site.Params.mobile }}</p>
       </div>
+      {{ end }}
+      {{ if .Site.Params.email }}
       <div class="col-lg-4 mb-4 mb-lg-0 col-md-4">
         <h4>Email</h4>
         <p>{{ .Site.Params.email }}</p>
       </div>
+      {{ end }}
+      {{ if .Site.Params.address }}
       <div class="col-lg-4 mb-4 mb-lg-0 col-md-4">
         <h4>Address</h4>
         <p>{{ .Site.Params.address }}</p>
       </div>
+      {{ end }}
     </div>
+  </div>
 
     {{ if .Site.Params.gmap.enable }}
     <div class="row">
