@@ -1,0 +1,15 @@
+####################### banner ########################
+banner:
+  enable: true
+  title: "Welcome to My Kitchen!"
+  animated_text:
+    - "Delicious Recipes."
+    - "Tasty Creations."
+    - "Food Adventures."
+  content: "Join me as I share my love for cooking and all things tasty!"
+
+
+###################### Recipes ######################
+recipe:
+  enable : true
+
