@@ -1,12 +1,12 @@
 ####################### banner ########################
 banner:
   enable: true
-  title: "Welcome to My Kitchen!"
+  title: "ThatKitchenPrincess."
   animated_text:
-    - "Delicious Recipes."
+    - "Healthy Recipes."
     - "Tasty Creations."
-    - "Food Adventures."
-  content: "Join me as I share my love for cooking and all things tasty!"
+    - "Food to nurture yot."
+  content: "Join me for easy and healthy recipes!"
 
 
 ###################### Recipes ######################
