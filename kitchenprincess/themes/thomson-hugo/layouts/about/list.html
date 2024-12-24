@@ -8,14 +8,16 @@
     <div class="row justify-content-center align-items-center">
       <div class="col-lg-12">
         <div class="profile mb-5">
-          <img src="{{ .image | relURL }}" alt="{{ .name }}" class="img-fluid">
+          <img src="{{ .image | relURL }}" alt="{{ .name }}" class="img-fluid" style="max-width: 300px; height: auto;">
         </div>
       </div>
       <div class="col-lg-7">
         <h2>{{ .name }}</h2>
         <p class="lead mb-4">{{ .bio | markdownify }}</p>
         <p class="mb-4">{{ .content | markdownify }}</p>
+        {{ if .signature }}
         <img src="{{ .signature | relURL }}" alt="{{ .name }}" class="img-fluid">
+      {{ end }}
       </div>
 
       <div class="col-lg-5">
