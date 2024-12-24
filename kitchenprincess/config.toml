@@ -99,6 +99,10 @@ link = "https://www.linkedin.com/in/luisefreese"
 icon = "ti-world"
 link = "https://m365princess.com/"
 
+[[params.social]]
+icon = "simple-icons--bluesky"
+link = "https://bsky.app/profile/luisefreese.bsky.social"
+
 
 # preloader
 [params.preloader]
